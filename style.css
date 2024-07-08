@@ -11,8 +11,9 @@ body{
 
 /* hader */
 header{
-    background-image: url(./images/developer.png);
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
     background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 /* nav styles */
@@ -72,13 +73,6 @@ nav{
 
 /* banner style start */
 /* banner-Text */
-
-/* .banner{
-    background: rgb(255, 248, 243);
-    border: 4px solid red;
-    max-width: 1482px;;
-    height: 704px; */
-}
 
 .banner-content{
     display: flex;
