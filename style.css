@@ -4,7 +4,7 @@
 /* nav styles */
 
 .nav-title{
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .nav-title span{
@@ -15,8 +15,9 @@
     background-color: #FD6E0A;
     font-size: 22px;
     color: white;
-    padding: 15px;
+    padding: 12px 22px;
     border: none;
+    border-radius: 5px;
 }
 
 .color-dark1{
@@ -44,6 +45,7 @@ nav ul li{
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0 150px;
 }
 
 .nav-bar{
