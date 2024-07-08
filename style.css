@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+*{
+    padding: 1px;
+    margin: 0px 1px;
+}
+
 body{
     font-family: "Open Sans", sans-serif;
 }
@@ -16,7 +21,7 @@ body{
 
 .btn-primary{
     background-color: #FD6E0A;
-    font-size: 22px;
+    font-size: 20px;
     color: white;
     padding: 12px 22px;
     border: none;
@@ -37,7 +42,7 @@ body{
 
 nav li a {
     text-decoration: none;
-    font-size:25px;
+    font-size:20px;
 }
 
 nav ul li{
@@ -55,5 +60,22 @@ nav{
 .nav-bar{
     display: flex;
     align-items: center;
+}
 
+
+
+/* banner style start */
+/* banner-Text */
+
+.banner-content{
+    display: flex;
+}
+
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.banner-text{
+    /* margin-left: 200px; */
 }
