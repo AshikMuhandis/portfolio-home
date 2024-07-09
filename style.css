@@ -39,6 +39,7 @@ header{
 .btn-primary2{
     font-size: 20px;
     color: #FD6E0A;
+    background-color: #FFF8F3;
     padding: 12px 22px;
     border: 2px solid #FD6E0A;
     border-radius: 5px;
@@ -79,7 +80,6 @@ nav{
 }
 
 
-
 /* banner style start */
 /* banner-Text */
 
@@ -103,5 +103,25 @@ font-size: 40px;
 .banner-text h2 {
     font-size: 75px;
     padding: 20px 0px;
+}
 
+/* main section start */
+
+.language-skill{
+    display: flex;
+    border: 2px solid red;
+}
+
+section{
+
+    margin-top: 160px;
+}
+
+.text-area{
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+
+    margin-top: 20px;
+    text-align: center;
 }
