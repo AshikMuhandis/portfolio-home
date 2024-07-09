@@ -119,9 +119,7 @@ section{
 
 .text-area{
     width: 50%;
-    align-items: center;
     margin: 0 auto;
-
     margin-top: 20px;
     text-align: center;
 }
